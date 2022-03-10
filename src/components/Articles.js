@@ -14,7 +14,7 @@ const Articles = () => {
   return (
     <div className="articles">
       <h2>Articles</h2>
-    <a href="https://placeholder.com"><img src="https://www.placecage.com/640/360"></img></a>
+    
       {articles &&
         articles.map((article) => (
           <div className="article" key={article.id}>
